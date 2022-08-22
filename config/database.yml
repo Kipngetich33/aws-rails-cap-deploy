@@ -14,5 +14,6 @@ test:
 production:
   <<: *default
   database: aws_rails_production
-  username: deploy
-  password: Rails.application.credentials.dig(:production, :db_password)
+  username: ubuntu
+  password: r
+  # password: Rails.application.credentials.dig(:production, :db_password)
